@@ -13,5 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </nav>
   </header>
 
-  <RouterView />
+  <div class="md:container md:mx-auto pt-6">
+    <RouterView />
+  </div>
 </template>
